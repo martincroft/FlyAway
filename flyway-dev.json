@@ -9,6 +9,19 @@
   "deployment": {
     "flywayConfFiles": [
       "./flyway.conf"
+    ],
+    "targetDatabases": [
+      {
+        "connectionProvider": {
+          "type": "UsernamePassword",
+          "url": "jdbc:sqlserver://trainingsqlserversolutions.database.windows.net;authentication=sqlPassword;databaseName=ReportingDB;encrypt=true;trustServerCertificate=true",
+          "username": "trainingadmin",
+          "password": {
+            "secretType": "DefaultSecretStore",
+            "name": "Flyway Desktop 3d3976fb-f3f4-4a30-ac5d-df3a9c72b103"
+          }
+        }
+      }
     ]
   },
   "schemas": []
