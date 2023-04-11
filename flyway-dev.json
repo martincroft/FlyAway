@@ -23,7 +23,8 @@
         },
         "displayName": "Production database"
       }
-    ]
+    ],
+    "generateUndoScripts": true
   },
   "schemas": []
 }
