@@ -26,5 +26,15 @@
     ],
     "generateUndoScripts": true
   },
-  "schemas": []
+  "schemas": [],
+  "capabilities": {
+    "staticData": {
+      "configuredTables": [
+        {
+          "schema": "dbo",
+          "table": "Accounts"
+        }
+      ]
+    }
+  }
 }
